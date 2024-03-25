@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+}
+.gap-2{
+    gap: 20px;
+}
+.mr-5{
+    margin-right: 50px;
+}
+.aic{
+    align-items: center;
+}
+.green-circle{
+    background: green;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: 0 29px;
+}
+
+.orange-circle{
+    background: orange;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-right:29px;
+}
+
+.pink-circle{
+    background: pink;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-right: 49px;
+}
