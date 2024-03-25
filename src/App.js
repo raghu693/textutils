@@ -4,14 +4,13 @@ import './App.css'
 import NavBar from './components/NavBar.js'
 import Textform from './components/Textform.js'
 import Alert from "./components/Alert.js"
-import About from './components/about.js'
+// import About from './components/about.js'
 
-
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from "react-router-dom";
 
 function App() {
   const [darkMode, setDarkMode] = useState("light")
@@ -45,20 +44,20 @@ function App() {
 
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <NavBar mode={darkMode} toogleMode={toogleMode} setalert={alertset} />
         <Alert alert={alert} />
         <div className="container my-4">
-          <Routes>
-            <Route exact path="/" element={
+          {/* <Routes> */}
+            {/* <Route exact path="/" element={ */}
               <Textform alertset={alertset} heading="Enter the text to analyze" />
-            } />
-            <Route exact path="/about" element={
-              <About />
-            } />
-          </Routes>
+            { /*// } /> */}
+            {/* <Route exact path="/about" element={ */}
+              {/* <About /> */}
+            {/* } /> */}
+          {/* </Routes> */}
         </div>
-      </Router>
+      {/* </Router> */}
     </>
   )
 }
