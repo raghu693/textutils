@@ -33,3 +33,24 @@
     width: 20px;
     margin-right: 49px;
 }
+
+@media (max-width: 1000px) {
+    .rightsidenav{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 423px) {
+    .rightsidenav .EnableDM{
+        font-size: 12px;
+    }
+    .form-switch {
+        padding-left: 0;
+    }
+    .form-check {
+        /* display: block; */
+        /* min-height: 1.5rem; */
+        padding-left: 5px;
+        /* margin-bottom: .125rem; */
+    }
+}

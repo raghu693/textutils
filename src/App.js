@@ -33,12 +33,12 @@ function App() {
       setDarkMode("light")
       document.body.style.backgroundColor = "white"
       document.body.style.color = "black"
-      alertset("  Dark mode has been enabled", "success ")
+      alertset("Light mode has been enabled", "success ")
     } else {
       setDarkMode("dark")
       document.body.style.backgroundColor = "#111"
       document.body.style.color = "white"
-      alertset("  light mode has been enabled", "success ")
+      alertset("Dark mode has been enabled", "success ")
     }
   }
 
@@ -50,7 +50,7 @@ function App() {
         <div className="container my-4">
           {/* <Routes> */}
             {/* <Route exact path="/" element={ */}
-              <Textform alertset={alertset} heading="Enter the text to analyze" />
+              <Textform alertset={alertset} heading="Try TextUtils - Word Counter, Character Counter, Do what ever you want" />
             { /*// } /> */}
             {/* <Route exact path="/about" element={ */}
               {/* <About /> */}
